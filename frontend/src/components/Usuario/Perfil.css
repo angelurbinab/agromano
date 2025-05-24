@@ -1,0 +1,77 @@
+.perfil-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    margin-top: 10px;
+  }
+  
+  .perfil-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #2a2929;
+  }
+  
+  .perfil-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .perfil-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .perfil-form button {
+    padding: 10px;
+    background-color: #2a2929;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .perfil-form button:hover {
+    background-color: #2a2929;
+    color: #608751;
+  }
+
+  .logout-button {
+    padding: 10px;
+    background-color: #2a2929;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .logout-button:hover {
+    background-color: #2a2929;
+    color: #608751;
+  }
+
+  .delete-button {
+    padding: 10px;
+    background-color: #2a2929;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .delete-button:hover {
+    background-color: #2a2929;
+    color: #608751;
+  }

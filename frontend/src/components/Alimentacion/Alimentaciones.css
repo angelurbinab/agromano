@@ -1,0 +1,143 @@
+.registro-alimentaciones-container {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 100px;
+    background-color: #f0f0f0;
+    min-height: 100vh;
+  }
+  .registro-alimentaciones-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #2a2929;
+  }
+  
+  .registro-alimentaciones-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .registro-alimentaciones-table th,
+  .registro-alimentaciones-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .registro-alimentaciones-table button {
+    background-color: #2a2929;
+    color: white;
+    padding: 8px 16px;
+    font-size: small;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .registro-alimentaciones-table button:hover {
+    color: #608751;
+  }
+  
+  .registro-alimentaciones-table th {
+    background-color: #608751;
+    color: white;
+  }
+  
+  .registro-alimentaciones-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .registro-alimentaciones-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .form-container {
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  .form-container h2 {
+    margin-top: 0;
+  }
+  
+  .form-container input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .form-container button {
+    background-color: #2a2929;
+    color: white;
+    padding: 8px 16px;
+    font-size: small;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    white-space: nowrap;
+  }
+  
+  .form-container button:hover {
+    color: #608751;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 25px;
+}
+
+.pagination button {
+    background-color: #2a2929;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.pagination button:hover {
+    color: #608751;
+}
+
+.pagination .active {
+  background-color: #608751;
+  color: white;
+}
+
+.search-input {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #608751;
+  box-shadow: 0 0 10px rgba(96, 135, 81, 0.5);
+}
+
+.error {
+  color: red
+}

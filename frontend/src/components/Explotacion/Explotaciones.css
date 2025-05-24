@@ -1,0 +1,92 @@
+.explotaciones-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  }
+  
+  .explotaciones-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #2a2929;
+  }
+
+  .explotaciones-container ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .explotaciones-container li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .explotaciones-container li:hover {
+    background-color: #608751;
+  }
+
+  .explotacion-link {
+    flex-grow: 1;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .explotacion-link:hover {
+    background-color: #608751;
+    color: #000000;
+  }
+  
+  .explotaciones-container p {
+    font-size: 18px;
+    color: #2a2929;
+  }
+
+  .add-explotacion-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #2a2929;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  .add-explotacion-button:hover {
+    background-color: #2a2929;
+  }
+
+  .error-message {
+    display: flex;
+    align-items: center;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 3px solid #000000;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    text-align: left;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .error-message img {
+    margin-right: 15px;
+    width: 90px;
+    height: 90px;
+  }
+  
+  .error-message p {
+    margin: 0;
+    font-size: 16px;
+  }
